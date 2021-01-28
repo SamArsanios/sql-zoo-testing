@@ -1,3 +1,6 @@
+-- Eercise2 SELECT from World --> In which we query the World country profile table
+
+
 -- 1. SQL command to show the name, continent and population of all countries.
 SELECT name, continent, population FROM world
 
