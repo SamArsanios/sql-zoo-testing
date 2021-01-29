@@ -1,4 +1,4 @@
--- 3 SELECT from Nobel --> Additional practice of the basic features using a table of Nobel Prize winners.
+-- Eercise3 SELECT from Nobel --> Additional practice of the basic features using a table of Nobel Prize winners.
 
 -- 1. displays Nobel prizes for 1950.
 SELECT yr, subject, winner FROM nobel WHERE yr = 1950
