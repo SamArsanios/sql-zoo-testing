@@ -1,3 +1,4 @@
+-- Exercise8 Using Null --> In which we look at teachers in departments.
 
 -- 1. List the teachers who have NULL for their department.
 SELECT name FROM teacher WHERE dept IS NULL;
