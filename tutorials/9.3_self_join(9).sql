@@ -1,4 +1,4 @@
--- Exercise9 Self join --> In which we join Edinburgh bus routes to Edinburgh bus routes.
+-- Exercise-9 -- Self join --> In which we join Edinburgh bus routes to Edinburgh bus routes.
 
 -- 1. How many stops are in the database.
 SELECT COUNT(*) FROM stops

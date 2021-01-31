@@ -1,4 +1,4 @@
--- Exercise5 SUM and COUNT --> In which we apply aggregate functions.
+-- Exercise-5 -- SUM and COUNT --> In which we apply aggregate functions.
 
 -- 1. Show the total population of the world.
 SELECT SUM(population) FROM world;

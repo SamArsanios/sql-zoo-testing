@@ -1,4 +1,4 @@
--- Exercise 8 + Numeric Examples --> In which we look at a survey and deal with some more complex calculations.
+-- Exercise-8+ -- Numeric Examples --> In which we look at a survey and deal with some more complex calculations.
 
 -- 1. Show the the percentage who STRONGLY AGREE
 SELECT A_STRONGLY_AGREE FROM nss WHERE question='Q01' AND institution='Edinburgh Napier University' AND subject='(8) Computer Science'

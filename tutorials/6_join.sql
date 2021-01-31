@@ -1,4 +1,4 @@
--- Exercise6 --> JOIN In which we join two tables; game and goals.
+-- Exercise-6 -- JOIN --> In which we join two tables; game and goals.
 
 -- 1. show the matchid and player name for all goals scored by Germany. To identify German players, check for: teamid = 'GER'
 SELECT matchid,player FROM goal WHERE teamid = 'GER'

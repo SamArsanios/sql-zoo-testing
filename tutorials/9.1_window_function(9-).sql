@@ -1,4 +1,4 @@
--- Exercise 9- Window functions --> In which we examine UK general election results.
+-- Exercise-9- -- Window functions --> In which we examine UK general election results.
 
 -- 1. Show the lastName, party and votes for the constituency 'S14000024' in 2017.
 SELECT lastName, party, votes FROM ge WHERE constituency = 'S14000024' AND yr = 2017 ORDER BY votes DESC

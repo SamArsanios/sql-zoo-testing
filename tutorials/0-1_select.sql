@@ -1,4 +1,4 @@
--- Exercise0 SELECT basics --> Some simple queries to get you started
+-- Exercise-0 -- SELECT basics --> Some simple queries to get you started
 
 SELECT population FROM world WHERE name = 'Germany';
 
@@ -6,7 +6,11 @@ SELECT name, population FROM world WHERE name IN ('Sweden', 'Norway', 'Denmark')
 
 SELECT name, area FROM world WHERE area BETWEEN 200000 AND 250000;
 
--- Exercise1 SELECT name --> Some pattern matching queries
+
+
+
+
+-- Exercise-1 SELECT name --> Some pattern matching queries
 
 -- 1. Find the country that start with Y
 SELECT name FROM world WHERE name LIKE 'Y%';

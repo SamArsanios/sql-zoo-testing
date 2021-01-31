@@ -1,4 +1,4 @@
--- Exercise9+ COVID 19 --> In which we measure the impact of COVID-19
+-- Exercise-9+ -- COVID 19 --> In which we measure the impact of COVID-19
 
 -- 1. uses a WHERE clause to show the cases in 'Spain' in March.
 SELECT name, DAY(whn), confirmed, deaths, recovered FROM covid WHERE name = 'Spain' AND MONTH(whn) = 3 ORDER BY whn
@@ -45,5 +45,6 @@ SELECT world.name,
 FROM covid JOIN world ON covid.name=world.name
 WHERE whn = '2020-04-20' AND population > 10000000 ORDER BY population DESC;
 
-8. 
+-- 8. For each country that has had at last 1000 new cases in a single day, show the date of the peak number of new cases.
+
 
