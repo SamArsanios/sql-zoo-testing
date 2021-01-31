@@ -1,4 +1,4 @@
--- SELECT Quiz
+--1-- SELECT Quiz
 
 -- 1. Select the code which produces this table
 SELECT name, population FROM world WHERE population BETWEEN 1000000 AND 1250000

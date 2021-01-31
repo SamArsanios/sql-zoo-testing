@@ -1,3 +1,5 @@
+--2-- SELECT FROM Quiz -- BBC Quiz
+
 -- 1. Select the code which gives the name of countries beginning with U
 SELECT name FROM world WHERE name LIKE 'U%'
 
@@ -6,12 +8,10 @@ SELECT population FROM world WHERE name = 'United Kingdom'
 
 -- 3. Select the answer which shows the problem with this SQL code - the intended result should be the continent of France:
 SELECT continent FROM world WHERE 'name' = 'France'
-
 -- 'name' should be name
 
 -- 4. Select the result that would be obtained from the following code:
  SELECT name, population / 10 FROM world WHERE population < 10000
-
 --  Nauru	990
 
 --  5. Select the code which would reveal the name and population of countries in Europe and Asia
