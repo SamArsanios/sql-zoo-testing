@@ -1,4 +1,4 @@
--- 8 - Using Null Quiz
+--8-- Using Null Quiz
 
 -- 1. Select the code which uses an outer join correctly.
 SELECT teacher.name, dept.name FROM teacher LEFT OUTER JOIN dept ON (teacher.dept = dept.id)

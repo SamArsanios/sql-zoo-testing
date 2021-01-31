@@ -1,4 +1,4 @@
--- 6. JOIN Quiz
+--6-- JOIN Quiz
 
 -- 1. You want to find the stadium where player 'Dimitris Salpingidis' scored. Select the JOIN condition to use:
 game  JOIN goal ON (id=matchid)

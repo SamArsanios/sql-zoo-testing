@@ -1,4 +1,4 @@
---9 Self join Quiz
+--9-- Self join Quiz
 
 -- 1. Select the code that would show it is possible to get from Craiglockhart to Haymarket
 SELECT DISTINCT a.name, b.name
@@ -20,4 +20,3 @@ SELECT a.company, a.num, stopa.name, stopb.name
   JOIN stops stopa ON (a.stop=stopa.id)
   JOIN stops stopb ON (b.stop=stopb.id)
  WHERE stopa.name='Tollcross'
- 
